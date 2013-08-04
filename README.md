@@ -1,7 +1,7 @@
 # Want PHP
 
 Want will generate the boilerplate for your php projects. 
-All the code generated will be in the `build` folder.
+You will find all the code generated in the `build` folder.
 
 ## Installation
 
@@ -44,7 +44,7 @@ joomla:
 ```
 
 Then type ``php want run`` to generate everything. 
-In this example you will generate 3 Joomla components
+In this example we will generate 3 Joomla components
 
 
 ## Todo
@@ -54,6 +54,7 @@ In this example you will generate 3 Joomla components
 + Write the tests
 + Write wordpress commands and create the templates
 + Write joomla commands and create the templates
++ Create readme_es.md file
 
 ### Wordpress
 
@@ -66,9 +67,9 @@ In this example you will generate 3 Joomla components
 + Command to generate a plugin ``joomla:plugin``
 + Command to generate a module ``joomla:module``
 + Command to generate a template ``joomla:template``
-+ Add templates for multiple Joomla versions (2.5,3) using flags. i.e. ``php want joomla:component mycomp --v3``
++ Generate code for multiple Joomla versions (2.5,3) using flags. i.e. ``php want joomla:component mycomp --v3``
 
 ## Contribution
 
 You are more than welcome to contribute to this project, just submit a pull request.
-Create a new Issue and label it `feature` or `question` and there will can talk about the project.
+Create a new Issue and label it `feature` or `question` and there we can talk about the project.
