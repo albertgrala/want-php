@@ -1,0 +1,7 @@
+# Configuration file, you can run the generators
+# by typing ``php want run`` in your command line
+joomla:
+  component:
+  - mycomp
+  - mycompseo
+  - mycompanalytics

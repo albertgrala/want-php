@@ -1,0 +1,13 @@
+{
+  "require" : {
+    "symfony/console": "2.4.*@dev",
+    "symfony/filesystem": "2.4.*@dev",
+    "symfony/yaml": "2.4.*@dev"
+  },
+  "autoload" : {
+    "psr-0": {
+      "Grala\\Want" : "src/"
+    },
+    "classmap" : ["src/Grala/Want/Generator"]
+  }
+}
