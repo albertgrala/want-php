@@ -13,7 +13,7 @@ class JoomlaComponentGenerator
     protected $componentName = 'boilerplate';
     protected $dumpPath = 'build/joomla';
     protected $folder;
-    protected $tmpl = 'app/tmpls/joomla.component.2_5';
+    protected $tmpl = 'app/templates/joomla.component.2_5';
     protected $fs;
 
 
